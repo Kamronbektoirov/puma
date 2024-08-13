@@ -205,10 +205,7 @@ header {
   gap: 14px;
   position: relative;
 }
-.slider__card {
-}
-.slider__img {
-}
+
 .slider__info {
   padding: 20px;
   background-color: #fff;
@@ -389,4 +386,77 @@ footer {
 }
 .payment-card {
   width: 50px;
+}
+/*section place */
+.speed__sneakers {
+  background-image: url(images/sneakers.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 129px;
+  padding-left: 121px;
+  padding-bottom: 306px;
+  margin-bottom: 180px;
+
+  & h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+  }
+  & p {
+    font-family: SF Pro Display;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31.03px;
+    letter-spacing: -1px;
+    margin-bottom: 70px;
+  }
+}
+/* variety place */
+.variety {
+  margin-bottom: 100px;
+}
+.variety__wrapper {
+  display: flex;
+  gap: 14px;
+}
+.variety_card {
+  & img {
+    margin-bottom: 28px;
+  }
+}
+.variety_type {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.64px;
+}
+.kids {
+  background-image: url(images/kids-bg.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 136px;
+  padding-bottom: 136px;
+}
+.kids_title {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+  color: white;
+}
+.kids_text {
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -2px;
+  margin-bottom: 65px;
+  color: white;
+}
+.kids_buttons {
+  display: flex;
+  gap: 20px;
+  & .btn {
+    padding: 18px 50px;
+  }
 }
