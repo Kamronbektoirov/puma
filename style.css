@@ -52,6 +52,9 @@ img {
     background-color: black;
     color: white;
 }
+.btn-view {
+    display: none;
+}
 
 header {
     & .wrapper {
@@ -147,6 +150,7 @@ header {
 .popular__head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 40px;
 }
 .popular__buttons {
@@ -430,8 +434,8 @@ footer {
     background-image: url(images/sneakers.png);
     background-position: center;
     background-size: cover;
-    padding-top: 129px;
-    padding-bottom: 306px;
+    padding-top: 130px;
+    padding-bottom: 130px;
     margin-bottom: 180px;
 
     & h1 {
@@ -456,6 +460,9 @@ footer {
 .variety__wrapper {
     display: flex;
     gap: 14px;
+}
+.variety__title{
+    display: none;
 }
 .variety_card {
     & img {
